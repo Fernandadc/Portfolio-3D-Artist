@@ -30,7 +30,7 @@ header{
 
 @media (max-width: 480px) {
   .content-menu {
-    flex-direction: column;
+    flex-direction: row;
     height: 50px;
     padding: 1rem;
     gap: 0.5rem;

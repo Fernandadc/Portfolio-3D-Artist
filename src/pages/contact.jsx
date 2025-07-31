@@ -1,9 +1,7 @@
 import React, { useRef } from "react";
 import Footer from "../components/footer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faFontAwesome, faInstagram, faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import emailjs from "@emailjs/browser";
-import Header from "../components/header";
+
 
 
 export const Contact = () => {
@@ -14,7 +12,7 @@ export const Contact = () => {
 
     emailjs
       .sendForm("service_y110tpr", "template_xmrgjwu", form.current, {
-        publicKey: emailJsKey,
+        publicKey: `M-YhRMostTfAzTINQ`,
       })
       .then(
         () => {
@@ -49,7 +47,7 @@ export const Contact = () => {
           
           <input className="text-field poppins-regular" type="email" name="user_email" placeholder="Email"/>
           
-          <textarea className="poppins-regular" name="message" placeholder="Your message here!" rows={2}/>
+          <textarea className="poppins-regular" name="message" placeholder="Your message here!" rows={1}/>
           <button type="submit" className="poppins-regular" >Send</button>
         </form>
         </div>
