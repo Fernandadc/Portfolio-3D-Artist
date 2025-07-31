@@ -1,0 +1,41 @@
+.img-homepage {
+  background-color: purple;
+  margin: auto;
+  height: 100vh;
+}
+
+.text-container {
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1,
+  p {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.work-container {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+}
+
+.work-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+  h3,
+  p {
+    display: flex;
+    justify-content: center;
+
+  }
+}

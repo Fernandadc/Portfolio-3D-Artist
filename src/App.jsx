@@ -1,7 +1,6 @@
 import React from "react";
-import "./App.css";
+import "./assets/scss/App.scss";
 import { Router, Route, Routes, useNavigate } from "react-router-dom";
-import loc from "./assets/localization";
 import Header from "./components/header";
 import Homepage from "./pages/homepage";
 import Contact from "./pages/contact";

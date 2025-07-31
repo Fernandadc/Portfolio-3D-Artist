@@ -1,7 +1,5 @@
 import React from "react";
-import loc from "../assets/localization";
 import Footer from "../components/footer";
-import Header from "../components/header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import db, { work } from "../assets/database";

@@ -1,0 +1,16 @@
+
+@use 'base/shared' as *;
+@use 'components/slider';
+@use 'components/work-card';
+@use 'layouts/footer';
+@use 'layouts/header';
+@use 'pages/homepage';
+@use 'pages/contact';
+@use 'pages/projects';
+
+body {
+  background-color: var(--background);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
